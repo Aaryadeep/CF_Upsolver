@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Upsolver</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Upsolver</h1>
+   <label for="firstuser">Enter User to upsolve:</label>
+   <input type="text" id="firstuser" name="CFusername">
+   <br />
+   <br />
+   <label for="seconduser">Enter your ID:</label>
+   <input type="text" name="CFusername" id="seconduser">
+   <br />
+   <br />
+   <label for="ratingStart">Rating From:</label>
+   <input type="number" name="ratingStart" id="ratingStart" placeholder="800">
+   <label for="ratingEnd">To:</label>
+   <input type="number" name="ratingEnd" id="ratingEnd" placeholder="3500">
+   <br />
+   <br />
+   <button id="gobutton">GO</button>
+   <br />
+   <br />
+   <div id="problemsDiv">
+      <table style="display: table;" id="problemTable">
+         <thead>
+            <th>Problem Link</th>
+            <th>Problem Name</th>
+            <th>Rating</th>
+         </thead>
+         <tbody id="tableBody">
+
+         </tbody>
+      </table>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
